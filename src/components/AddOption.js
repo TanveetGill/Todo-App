@@ -21,8 +21,8 @@ export default class AddOption extends React.Component {
         {this.state.error && <p className="add-option-error">{this.state.error}</p>}
         <form onSubmit={this.handleAddOption}>
           <div className="form-group">
-            <small class="form-text text-muted">Add your tasks for the day:</small>
-            <input className="form-control" type="text" name="option" placeholder="Enter item"/>
+            <small className="form-text text-muted">Add a task for the day:</small>
+            <input className="form-control" type="text" name="option" placeholder="Ex: Walk the dog"/>
           </div>
           <button className="btn btn-secondary" >Add Option</button>
         </form>
